@@ -8,7 +8,7 @@ from openai import OpenAI, APIConnectionError, AuthenticationError
 from sentence_transformers import SentenceTransformer
 
 # Directory where PDFs will be stored and processed
-PDF_DIR = r'C:\Users\Hitesh\Downloads\Class 9th.zip'
+PDF_DIR = r'path to pdf'
 print("FITZ MODULE:", fitz.__file__)  # Debugging module path
 
 # Extracts text from each page of the PDF
@@ -38,7 +38,7 @@ def chunk_text(text, max_tokens=500):
 def query_groq(prompt):
     try:
         client = OpenAI(
-            api_key='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',
+            api_key='your groq API key',
             base_url="https://api.groq.com/openai/v1"
         )
         response = client.chat.completions.create(
