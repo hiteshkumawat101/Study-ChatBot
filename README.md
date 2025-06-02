@@ -1,36 +1,51 @@
 # Study-ChatBot
 
 📚 Class 9 PDF-based Chatbot (Local Setup)
+
 This is a local chatbot app built with Streamlit, powered by Groq's LLaMA-3 model, and supports Class 9 students, teachers, and parents in querying PDF textbooks.
- Key Features
+ 
+Key Features
+
 Upload Class 9 textbook PDFs
+
 Automatically extract and chunk content
+
 Use sentence embeddings and FAISS for fast retrieval
+
 Ask subject-related questions and receive intelligent answers
+
 Supports English and Hindi responses
+
 Personalized answers based on user type and weak subjects
 
 
+
+
 📂 Project Folder Structure
+
 📁 class9_chatbot/
 │
+
 ├── main.py                  # Main Streamlit application file
+
 ├── requirements.txt        # Python dependency list
+
 ├── faiss_index.index       # Auto-generated FAISS index file (after embedding)
+
 ├── embedder.joblib         # Auto-generated embedding model
+
 ├── text_chunks.joblib      # Auto-generated text chunks
+
 ├── embeddings.npy          # Auto-generated embedding matrix
+
 └── 📁 test/Class9th/        # Folder to upload and store PDFs
 
 
 ✅ Prerequisites
 Python 3.8 or higher installed
-
-
 Internet connection (for downloading models and calling Groq API)
-
-
 Your Groq API key
+
 
  Setup Instructions
 1. Create a New Folder
