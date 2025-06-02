@@ -1,4 +1,5 @@
 # Study-ChatBot
+
 📚 Class 9 PDF-based Chatbot (Local Setup)
 This is a local chatbot app built with Streamlit, powered by Groq's LLaMA-3 model, and supports Class 9 students, teachers, and parents in querying PDF textbooks.
  Key Features
