@@ -4,20 +4,10 @@
 This is a local chatbot app built with Streamlit, powered by Groq's LLaMA-3 model, and supports Class 9 students, teachers, and parents in querying PDF textbooks.
  Key Features
 Upload Class 9 textbook PDFs
-
-
 Automatically extract and chunk content
-
-
 Use sentence embeddings and FAISS for fast retrieval
-
-
 Ask subject-related questions and receive intelligent answers
-
-
 Supports English and Hindi responses
-
-
 Personalized answers based on user type and weak subjects
 
 
@@ -41,7 +31,6 @@ Internet connection (for downloading models and calling Groq API)
 
 
 Your Groq API key
-
 
  Setup Instructions
 1. Create a New Folder
